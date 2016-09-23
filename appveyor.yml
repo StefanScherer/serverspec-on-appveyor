@@ -20,7 +20,7 @@ cache:
 
 install:
   - set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
-  - ps: ls env:
+  - ps: ls env:P*
   - bundle config --local path vendor/bundle
   - bundle install
 
