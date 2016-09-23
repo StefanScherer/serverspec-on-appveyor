@@ -17,7 +17,7 @@ describe "Some package tests" do
     it { should exist }
   end
 
-  describe file("#{ENV['ProgramFiles']}/git /") do
+  describe file("#{ENV['ProgramFiles']}/git/") do
     it { should be_directory }
   end
 end
