@@ -13,6 +13,10 @@ describe "Some package tests" do
     it { should have_start_mode("Automatic") }
   end
 
+  describe group('Administrators') do
+      it { should exist  }
+  end
+
   describe file("#{ENV['ProgramFiles']}/git/git-bash.exe") do
     it { should exist }
   end
