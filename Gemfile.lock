@@ -2,7 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    json (2.0.2)
     multi_json (1.12.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -30,7 +29,7 @@ GEM
       rspec-its
       specinfra (~> 2.53)
     sfl (2.2)
-    specinfra (2.63.1)
+    specinfra (2.66.6)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
@@ -40,7 +39,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  json
   serverspec
 
 BUNDLED WITH
